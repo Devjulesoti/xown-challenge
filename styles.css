@@ -165,8 +165,13 @@ header {
   gap: 12px;
 }
 .effective-content {
-  background-color: blue;
-  
+  /* background-color: blue; */
+    background-image: linear-gradient(to left, #284379,#4770c4,#0033cc,blue);
+
+}
+.effective-content > h4 {
+  color: whitesmoke;
+  font-size: 25px;
 }
 
 .profiledetails-img {
@@ -226,4 +231,32 @@ header {
 }
 .grid-images {
   width: 110px;
+}
+.web1{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    align-content: center;
+    background-color: #3333cc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.web2{
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    align-content: center;
+    background-color: #3333cc;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.web-content h4, p{
+    color: whitesmoke;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 25px;
 }
