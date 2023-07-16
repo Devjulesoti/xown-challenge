@@ -19,6 +19,7 @@ main {
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
   -o-border-radius: 10px;
+  padding-bottom: 200px;
 }
 .main-container {
   padding-left: 30px;
@@ -154,7 +155,18 @@ header {
 .profile-details {
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 12px;
+}
+.profile-details2 {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
+  gap: 12px;
+}
+.effective-content {
+  background-color: blue;
+  
 }
 
 .profiledetails-img {
