@@ -1,5 +1,6 @@
 body {
   background-color: rgb(170, 210, 218);
+  padding: 50px;
 }
 * {
   color: #62547e;
@@ -14,7 +15,7 @@ main {
   box-sizing: border-box;
   background-color: white;
   border-radius: 10px;
-  padding: 10px;
+  padding: 40px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -110,22 +111,35 @@ header {
 /* article styling */
 .article-container {
 }
-.article-text {
+.article-textcon {
   display: flex;
   gap: 10px;
+  align-items: center;
+  margin: 0;
 }
-.article-left {
+.article-text {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
 }
+
 .inclusive-container {
   background-color: #eff0ff;
 }
 .design-container {
   background-color: #eff0ff;
+
 }
 .books-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+.no162{
+  font-size: 15px;
+color:#0033cc;
+font-weight: 600;
+margin: 0;
 }
 .grid-item > h4 {
   font-size: 25px;
@@ -139,10 +153,10 @@ header {
   font-size: 12px;
 }
 .books-image {
-  width: 170px;
+  width: 130px;
 }
 .girl-image {
-  width: 140px;
+  width: 98px;
 }
 
 .timer-text {
@@ -155,7 +169,7 @@ header {
 .profile-details {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   gap: 12px;
 }
 .profile-details2 {
@@ -163,15 +177,6 @@ header {
   align-items: center;
   /* justify-content: space-between; */
   gap: 12px;
-}
-.effective-content {
-  /* background-color: blue; */
-    background-image: linear-gradient(to left, #284379,#4770c4,#0033cc,blue);
-
-}
-.effective-content > h4 {
-  color: whitesmoke;
-  font-size: 25px;
 }
 
 .profiledetails-img {
@@ -204,9 +209,11 @@ header {
   grid-template-columns: 1.5fr 1fr 1fr;
   grid-template-rows: auto;
   gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 .grid-item {
-  padding: 0px 10px;
+  padding: 10px 10px;
   border-radius: 8px;
 }
 .grid-item-theme {
@@ -230,33 +237,68 @@ header {
   grid-template-rows: auto;
 }
 .grid-images {
-  width: 110px;
+  width: 85px;
 }
 .web1{
     margin-bottom: 10px;
-    padding: 5px 10px;
+    /* padding: 5px 10px; */
     border-radius: 10px;
     align-content: center;
     background-color: #3333cc;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
 }
 .web2{
-    margin-bottom: 10px;
-    padding: 5px 10px;
+    /* margin-bottom: 10px; */
+    /* padding: 2px 10px; */
     border-radius: 10px;
     align-content: center;
     background-color: #3333cc;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-.web-content h4, p{
+  }
+  .effective-content {
+    /* background-color: blue; */
+      background-image: linear-gradient(to left, #284379,#4770c4,#0033cc,blue);
+      /* width: 450px; */
+
+  }
+  .effective-content > h4 {
     color: whitesmoke;
+    font-size: 25px;
+  }
+.web-content h4, p{
+    /* color: whitesmoke; */
     font-weight: 400;
     font-size: 17px;
     line-height: 25px;
+}
+.teachers-container{
+      background-color: yellow;
+          /* width: 378px; */
+          margin-left: 50px;
+
+
+    }
+    .teachers-card{
+  padding: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.teachers-name{
+  margin-bottom: 0px;
+}
+.teachers-experience{
+  margin-top: 0px;
+}
+.teacherprofile-image{
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+
+}
+.training-text{
+  color: white;
+  margin-top: 0;
+  width: 120px;
+}
+.details-con{
+  display: flex;
 }
